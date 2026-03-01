@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-peach: #fcd5ce;
+  --color-peach-dark: #f4a89a;
+  --color-cream: #fef9ef;
+  --color-warm: #f8edeb;
+  --color-sage: #b5c99a;
+  --color-sage-dark: #87a96b;
+  --color-lavender: #c9b1ff;
+  --color-lavender-dark: #a07ee6;
+  --color-coral: #ff8a80;
+  --color-charcoal: #3d3d3d;
+  --color-soft-gray: #6b6b6b;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes purr {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+@keyframes tail-wag {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-purr {
+  animation: purr 2s ease-in-out infinite;
+}
+
+.animate-tail-wag {
+  animation: tail-wag 1s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
