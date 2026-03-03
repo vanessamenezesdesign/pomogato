@@ -17,6 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+      <head><script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script></head>
       <body className="bg-cream text-charcoal antialiased">{children}</body>
     </html>
   );
