@@ -8,7 +8,7 @@ import TaskInput from "./TaskInput";
 type TimerMode = "focus" | "shortBreak" | "longBreak";
 
 const MODES: Record<TimerMode, { label: string; minutes: number; color: string }> = {
-  focus: { label: "Foco", minutes: 25, color: "bg-peach" },
+  focus: { label: "Foco", minutes: 25, color: "bg-focus" },
   shortBreak: { label: "Pausa Curta", minutes: 5, color: "bg-sage" },
   longBreak: { label: "Pausa Longa", minutes: 15, color: "bg-lavender" },
 };
