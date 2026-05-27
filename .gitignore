@@ -42,4 +42,5 @@ next-env.d.ts
 .claude/
 
 *storybook.log
-storybook-static
+**/*.stories.*
+src/stories/
