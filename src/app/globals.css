@@ -4,7 +4,7 @@
   --color-peach: #fcd5ce;
   --color-peach-dark: #f4a89a;
   --color-focus: #ff5638;
-  --color-cream: #fef9ef;
+  --color-cream: #ceab64;
   --color-warm: #f8edeb;
   --color-sage: #b5c99a;
   --color-sage-dark: #87a96b;
@@ -49,4 +49,8 @@
 
 .animate-fade-in {
   animation: fade-in 0.5s ease-out forwards;
+}
+
+.bg-lavender-tab-active {
+  background: linear-gradient(90deg, rgba(201, 177, 255, 1) 32%, rgba(255, 255, 255, 1) 100%);
 }
